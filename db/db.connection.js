@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
-const uri =
-  "mongodb+srv://neog-lms:neoglms@cluster0.klfms.mongodb.net/neoglms?retryWrites=true&w=majority";
+const uri = "your-mongodb-uri-here";
 
 async function initializeDBConnection() {
   try {
